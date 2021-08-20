@@ -43,7 +43,10 @@
                         </goals>
                         <configuration>
                             <bnd><![CDATA[
-Import-Package: javax.annotation;version=0.0.0,*
+Import-Package: \
+javax.annotation;version=0.0.0,\
+org.apache.sling.api.wrappers;version=0.0.0,\
+*
                                 ]]></bnd>
                         </configuration>
                     </execution>
